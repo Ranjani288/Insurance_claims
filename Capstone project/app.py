@@ -3,7 +3,7 @@ import joblib
 import numpy as np
 
 # Load your trained model
-claim_staus_model = joblib.load('claim_status_joblib')
+claim_staus_model = joblib.load('claim_staus_model')
 
 # Title of the app
 st.title("Claim Status Prediction")
